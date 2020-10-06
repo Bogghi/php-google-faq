@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    align-items: center;
+    height: $navHeigth;
+    width: 100vw;
+
+    &.logo{
+
+        img {
+            padding-left: 40px;
+            padding-right: 10px;
+        }
+
+        a {
+            color: #5f6368;
+            font-family: "product sans","open sans",arial,sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 22px;
+            text-decoration: none;
+        }
+    }
+
+    &.menu {
+        ul{
+            display: flex;
+            list-style: none;
+
+            li{
+                font-family: 'Google Sans',sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: 0;
+                line-height: $navHeigth;
+                margin: 0 42px 0 0;
+                padding: 0;
+                color: #5f6368;
+
+                &.active {
+                    color: #3367d6;
+                    border-bottom: 3px solid #3367d6;
+                }
+            }
+        }
+    }
+
+}
